@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About|Veera</title>
+	<link rel="icon" href="favicon-32x32.png">
+</head>
+<body>
+<style type="text/css">
+
+	body
+	{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		background: black;
+
+	}
+
+	.hero
+	{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		
+	}
+
+	.logo
+	{
+		width: 10%;
+		height: 10%;
+
+	}
+
+	nav{
+		 display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+	}
+
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		padding: 10px 20px;
+	}
+
+	nav ul li a{
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		padding: 3px 3px;
+	}
+
+	nav ul li a:hover{
+		background-color: orangered;
+		border-radius: 5px;
+		box-shadow: 0 0 30px orangered;
+		color: black;
+	}
+
+	.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+
+	.detail
+	{
+		margin-left: 35%;
+		margin-top: 15%;
+		color: white;
+	}
+
+	.detail h1
+	{
+		font-size: 60px;
+		color: white;
+
+	}
+
+	span
+	{
+    color: orangered;
+	}
+
+	.detel p{
+	    color: #555;
+	    line-height: 22px;
+
+	}
+
+	.detel a{
+	    background: #212121;
+	    padding: 10px 18px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    color: #fff;
+	    display: inline-block;
+	    margin: 30px 0;
+	    border-radius: 5px;
+	}
+
+	.hi{
+
+		margin-bottom: 20px;
+	}
+
+	.images{
+	    width: 45%;
+	    height: 80%;
+	    position: absolute;
+	    bottom: 0;
+	    right: 100px;
+	}
+
+	.images img{
+	    height: 50%;
+	    position: absolute;
+	    top: 5%;
+	    left: 20%;
+	    bottom: 0;
+	    transform: translateX(-50%);
+	    transition: bottom 1s, left 1s;
+	}
+
+	.images:hover .shape{
+	    bottom: 40px;
+	}
+
+	.images:hover .girl{
+	    left: 45%;
+	}
+
+	.social{
+	    margin-left: 8%;
+	    margin-top: 100px;
+	}
+
+	.social a{
+	    font-size: 30px;
+	    color: #212121;
+	    margin-right: 20px;
+	}
+
+	.social a:hover{
+	    color: orange;
+	}
+
+
+
+
+</style>
+
+	<div class="hero">
+		<nav>
+			<img src="logo.png" class="logo">
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="Career.html">CAREER</a></li>
+				<li><a href="#">CONTACT</a></li>
+
+			</ul>
+			<a href="#" class="btn">Buy Now</a>
+		</nav>
+		<div class="detail">
+			<h1  class="hi"><span>About 🔻 ME</span></h1>
+            <h1><br>I'm Vivek <span>Veera</span></h1>
+            <p>This is a page <span>about me</span> </p>
+            <a href="#"></a>
+        </div>
+        <div class="images">
+            
+            <img src="veera.png" class="girl">
+        </div>
+
+        <div class="social">
+           <a href="#"><i class="fab fa-dribbble"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+	</div>
+
+</body>
+</html>
